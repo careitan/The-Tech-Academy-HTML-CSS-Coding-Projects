@@ -3,8 +3,8 @@
 	<head>
 		<title>The Space Station | Resort</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="./css/photo_style.css">
-		<link rel="stylesheet" href="">
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 	</head>
 	<body>
 		<!-- NAV -->
@@ -21,20 +21,19 @@
 
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span>The Space Station</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">The Space Station</span>
 				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
 
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
-					
+				<div class="flex-container">
 					<!-- PHOTO-CONTAINER 1 -->
 					<div class="photo-container">
 						<div class="photo">
@@ -148,23 +147,23 @@
 		<!-- END GALLERY -->
 
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
 						<h2><span>Your adventure is just around the moon.</span>
 							<br />Reserve your flight today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic contact information
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Email Address">
-								<input class="rsvp" type="text" value="Phone Number">
+								<input class="rsvp" type="text" value="First Name" placeholder="First Name">
+								<input class="rsvp" type="text" value="Last Name" placeholder="Las Name">
+								<input class="rsvp" type="text" value="Email Address" placeholder="Email Address">
+								<input class="rsvp" type="text" value="Phone Number" placeholder="Phone Number">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
@@ -180,8 +179,8 @@
 		<!-- END RSVP -->
 
 		<!-- FOOTER -->
-		<div>
-			www.thespacestation.space &nbsp;|&nbsp; &copy 2016
+		<div id="footer">
+			www.thespacestation.space &nbsp;|&nbsp; &copy 2018
 		</div>
 		<!-- END FOOTER -->
 		
